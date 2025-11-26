@@ -1,0 +1,1 @@
+arithmetics.py contains functions that calculates problems included in Number Theory

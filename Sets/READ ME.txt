@@ -1,0 +1,6 @@
+set_operations.py contains function to calculate the powerset and the cartesian product of a set.
+
+The powerset output is represented by a list containing sets ordered by size of set. The elements of sets are not sorted so {1,2,3} = {2,1,3}.
+"None" represents the empty set.
+
+The cartesian product is represented as a list containing tuples and has the typical order of a cartesian product.

@@ -1,0 +1,18 @@
+truthtable.py is a program that generates a truthtable for a propositional statement.
+truthtable.py should be run as a whole rather than its individual function.
+
+When run, the program lists the syntax for different operators used in logical expressions:
+
+Operator syntax:
+and
+or
+not (can be written either as "-" or "not")
+imp = implication
+bimp = bi-implication
+xor: exclusive or
+
+Leave space between operators and non-operators to avoid error-based termination
+
+---------------------------
+propositional_relations.py calculates relations for expressions.
+Expressions should be in the form of strings with the same syntax explained in the truthtable program.

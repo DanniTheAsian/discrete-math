@@ -1,0 +1,3 @@
+matrix_operations contains multiple functions to calculate the result of matrix operations.
+
+A matrix must be defined as a list containing lists that contains integers. For example [[1,2,3],[6,5,4],[0,1,1]] would be a valid matrix.

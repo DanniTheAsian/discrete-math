@@ -1,0 +1,11 @@
+relations.py contains functions that calculates if a relation is of a specific type and can modify relations to fulfill different specifications.
+
+Relations must be defined as a set with tuples that contain single character strings. For example {("a","b"),("b","a"),("c","c")} would be a valid relation. 
+Strings can also be exchanged for integers: {(1,2),(2,3),(2,2)}
+
+Domains are defined as sets. For example {"a","b","c","d"}
+
+Domains are NOT ordered, which means that the order that the tuples appear in the relation is principally random, 
+though the elements in the tuples is ordered. So a relation is equal if it contains precisely the same tuples, no matter the order.
+
+It's important to note that some functions only require a relation while others also require the domain of the relation.
