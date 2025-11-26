@@ -87,8 +87,8 @@ class ChineseRemainderTheorem:
         return x
 
 
-# ---- Example usage ----
 if __name__ == "__main__":
+# ---- eksempel ----
     moduli = [2, 3, 5, 11]
     remainders = [1, 2, 3, 4]
 
