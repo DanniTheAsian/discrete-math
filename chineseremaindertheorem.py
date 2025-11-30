@@ -88,9 +88,8 @@ class ChineseRemainderTheorem:
 
 
 if __name__ == "__main__":
-# ---- eksempel ----
-    moduli = [2, 3, 5, 11]
-    remainders = [1, 2, 3, 4]
+    moduli = [4, 7, 25, 33]
+    remainders = [2, 3, 10, 7]
 
     crt = ChineseRemainderTheorem(moduli, remainders)
     solution = crt.solve()

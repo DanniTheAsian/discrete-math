@@ -1,8 +1,8 @@
-matrix = [[1,2,3],[6,5,4],[0,1,1]]
 
-matrix1 = [[1,2,3],[6,5,4],[0,1,1]]
-matrix2 = [[1,2,3],[6,5,4],[0,1,1]]
+matrix = [[1,2,1],[1,2,1],[1,2,1],[1,2,1]]
 
+matrix1 = [[1,1,0],[1,0,1],[0,1,0]]
+matrix2 = [[1,1,0],[1,0,1],[0,1,0]]
 def matrix_product(a: matrix, b: matrix) -> matrix:
     """Returns matrix product of a and b."""
     product_matrix = [[0 for col in b[0]] for row in a]
@@ -113,7 +113,4 @@ def print_matrix(a: matrix) -> None:
         print(" ".join(str(num) for num in  row))
 
 
-print_matrix(transpose_matrix(matrix))
-print_matrix(matrix)
-
-print_matrix(matrix_add(matrix1, matrix2))
+print_matrix(matrix_bool_product(matrix1, matrix2))

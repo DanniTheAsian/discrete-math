@@ -53,3 +53,4 @@ def is_prime(n: int) -> bool:
         if n % k == 0:
             return False
     return True
+
